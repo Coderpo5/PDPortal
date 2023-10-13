@@ -1,420 +1,428 @@
 @font-face {
-    font-family: 'Sansation';
-    src: url('Sansation_Regular.ttf') format('truetype');
+  font-family: "Sansation";
+  src: url("./Fonts/Sansation_Regular.ttf") format("truetype");
 }
 @font-face {
-    font-family: 'Sansation-Light';
-    src: url('Sansation_Light.ttf') format('truetype');
+  font-family: "Sansation-Light";
+  src: url("./Fonts/Sansation_Light.ttf") format("truetype");
 }
 
-body{
-    margin: 0px;
+body {
+  margin: 0%;
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    gap: 13vw;
-    width:100vw;
-    height:9vh;
-    background-color:  #030A06;
-    font-family:'SansationLight',sans-serif;
-    font-weight: 700;
-    font-size: 1vw;
-  }
-  
-  .alcherLogo{
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center;
-    gap:1vw;
-    position: relative;
-    left: 7vw;
-  
-  }
-  
-  .alcherLogo img{
-    height: 3vw;
-    width: 2.8vw;
-  
-  }
-  
-  
-  .AlcheringaText{
-  font-family: 'Sansation',sans-serif;
-  color: #EBF1F9;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 13vw;
+  width: 100vw;
+  height: 10vh;
+  background-color: #030a06;
+  font-family: "SansationLight", sans-serif;
+  font-weight: 700;
+  font-size: 1vw;
+}
+
+.alcherLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  position: relative;
+  left: 7vw;
+}
+
+.alcherLogo img {
+  height: 3vw;
+  width: 2.8vw;
+}
+
+.AlcheringaText {
+  font-family: "Sansation", sans-serif;
+  color: #ebf1f9;
   font-size: 2vw;
   font-weight: 400;
-  }
-  .navlinks{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-weight: 700;
-    gap:2vw;
-    position: relative;
-    font-size: 1vw;
-    top:0.2vw;
-    padding: 1vw;
-    
-  }
-  .registerButton{
-    background-color:  #DAD55B;
-    height: 3vh ;
-    width:6vw;
-    border: none;
-    border-radius: 17px;
-    position:relative;
-    top: 0.1vw;
-    font-family: 'Sansation',sans-serif;
-    line-height: 13.43px;
-    font-size: 1vw;
-    font-weight: 700;
-    min-width: 5vw;
-    
-  }
-  
-  .intro{
-    height:50vw;
-    width: 100vw;
-    color: white;
-    position: relative;
-    top: 4.8vw;
-    background-color: #030A06;
-    display:flex;
-    gap: 0.01vw;
-    flex-direction: column;
-    align-items:start;
-    background-image:url('images/Group29.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  
-  }
-  
-  .Alcheringa24{
-    position: relative;
-    top: 4vh;
-    left: 12vw;
-    font-size: 2.2vw;
-    font-weight: 400;
-    font-family:'Sansation',sans-serif;
-  }
-  .PD{
-    position: relative;
-    top:-2vh;
-    left:20vw;
-    font-weight: 700;
-    font-size: 4.3vw;
-    line-height: 5.5vw;
-    font-family:'Sansation',sans-serif;
-  }
-  .PDintro{
-    position: relative;
-    left:12vw;
-    top:-5vh;
-    font-weight: 400;
-    /* line-height: 20px; */
-    font-family:'Sansation',sans-serif;
-    font-size: 1.6vw;
-  }
-
-
-.Grey_Borders{
-    width: 100%;
-    height: 100%;
-    background-color:  #0D1716;
 }
-.Grey_Borders_content{
-    padding: 2% 14% 4% 14%;
+.navlinks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 700;
+  gap: 2vw;
+  position: relative;
+  font-size: 1vw;
+  top: 0.2vw;
+  padding: 1vw;
 }
-.White_Borders{
-    width: 100%;
-    height: 100%;
-    background-color: #030A06;
-}
-.White_Borders_content{
-    padding: 2% 14% 4% 14%;
+.registerButton {
+  background-color: #dad55b;
+  padding: 1.8% 0%;
+  height: fit-content;
+  width: 6vw;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  top: 0.1vw;
+  font-family: "Sansation", sans-serif;
+  line-height: 13.43px;
+  font-size: 1vw;
+  font-weight: 700;
+  min-width: 5vw;
 }
 
-.All_Contents_Head{
-    height: 6vw;
-    font-size: 2vw;
-    color: rgb(218, 213, 91, 0.95);
-    font-family: "Sansation", sans-serif;
-    font-weight: 800;
-}
-.About_content{
-    color: #C5C5C5;
-}
-.About_content_content{
-    width: 60%;
-    text-align: left;
-}
-.About_description{
-    font-weight: 400;
-    font-size:1.1vw;
-    position: relative;
-    font-family: "Sansation-Light", sans-serif;
-    top: 0vw;
-    line-height: 140%;
+.intro {
+  padding-bottom: 1%;
+  margin: 0%;
+  height: 60vw;
+  width: 100vw;
+  color: white;
+  background-color: #030a06;
+  display: flex;
+  gap: 0.01vw;
+  flex-direction: column;
+  background-image: url("images/Group29.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-position: center center; */
+
 }
 
-.Highlight_content{
-    display: flex;
-    position: relative;
-    justify-content:space-evenly;
-    align-items: flex-end;
-    gap: 6%;
-    color: #C5C5C5;
+.Alcheringa24 {
+  position: relative;
+  width: fit-content;
+  top: 11vh;
+  left: 13vw;
+  font-size: 2.2vw;
+  font-weight: 400;
+  font-family: "Sansation", sans-serif;
+}
+.PD {
+  position: relative;
+  width: fit-content;
+
+  top: 7vh;
+  left: 13vw;
+  font-weight: 700;
+  font-size: 4.3vw;
+  line-height: 5.5vw;
+  font-family: "Sansation", sans-serif;
+}
+.PDintro {
+  position: relative;
+  width: fit-content;
+
+  left: 13vw;
+  top: 3vh;
+  font-weight: 400;
+  /* line-height: 20px; */
+  font-family: "Sansation", sans-serif;
+  font-size: 1.6vw;
 }
 
-.All_content_image{
-    position: relative;
-    top: 1.2vw;
-    height: 5vw;
-    width: 5vw;
+.Grey_Borders {
+  width: 100%;
+  height: 100%;
+  background-color: #0d1716;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+.Grey_Borders_content {
+  padding: 2% 14% 4% 14%;
+}
+.White_Borders {
+  width: 100%;
+  height: 100%;
+  background-color: #030a06;
+  /* padding: 1%; */
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+.White_Borders_content {
+  padding: 2% 14% 4% 14%;
 }
 
-.heading{
-    font-weight: 400;
-    font-family: "Sansation", sans-serif;
-    font-size: 1.2vw;
-    position: relative;
-    top: 1.6vw;
+.All_Contents_Head {
+  height: 6vw;
+  font-size: 2vw;
+  color: rgb(218, 213, 91, 0.95);
+  font-family: "Sansation", sans-serif;
+  font-weight: 800;
 }
-.description{
-    font-weight: 300;
-    font-family: "Sansation-Light", sans-serif;
-    font-size:1.1vw;
-    position: relative;
-    top: 1.1vw;
+.About_content {
+  color: #c5c5c5;
 }
-
-.Highlight_content_content{
-    width: 25%;
-    text-align:center;
+.About_content_content {
+  width: 60%;
+  text-align: left;
 }
-
-.Prizes_content{
-    display: flex;
-    position: relative;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    gap: 6%;
-    color: #C5C5C5;
+.About_description {
+  font-weight: 400;
+  font-size: 1.1vw;
+  position: relative;
+  font-family: "Sansation-Light", sans-serif;
+  top: 0vw;
+  line-height: 140%;
 }
 
-.Prizes_content_content{
-    width: 25%;
-    text-align:center;
+.Highlight_content {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  gap: 6%;
+  color: #c5c5c5;
 }
 
-.Registration_Fees_content{
-    display: flex;
-    position: relative;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    gap: 6%;
-    color: #C5C5C5;
+.All_content_image {
+  position: relative;
+  top: 1.2vw;
+  height: 5vw;
+  width: 5vw;
 }
 
-.Registration_Fees_content_content{
-    width: 25%;
-    text-align:center;
+.heading {
+  font-weight: 400;
+  font-family: "Sansation", sans-serif;
+  font-size: 1.2vw;
+  position: relative;
+  top: 1.6vw;
+}
+.description {
+  font-weight: 300;
+  font-family: "Sansation-Light", sans-serif;
+  font-size: 1.1vw;
+  position: relative;
+  top: 1.1vw;
 }
 
-.Adjudicators_content{
-    display: flex;
-    position: relative;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    gap: 4%;
-    color: #C5C5C5;
-}
-.Adjudicators_content_content{
-    width: 25%;
-    text-align:center;
-}
-.Adjudicator_image{
-    height: 7.5vw;
-    width: 7.5vw;
-    position: relative;
-    left: 4vw;
-    border-radius:50%;
-    background-color: #B2B2B2;
+.Highlight_content_content {
+  width: 25%;
+  text-align: center;
 }
 
-.Adjudicator_name{
-    font-size: 1.2vw; 
-    font-weight: 400;
-    font-family: "Sansation-Light", sans-serif;   
+.Prizes_content {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  gap: 6%;
+  color: #c5c5c5;
 }
 
-.Team_content{
-    display: flex;
-    position: relative;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    color: #C5C5C5;
-}
-.Team_content_content{
-    width: 25%;
-    text-align:center;
-}
-.Team_image{
-    height: 7.5vw;
-    width: 7.5vw;
-    position: relative;
-    left: 5vw;
-    border-radius:50%;
-    background-color: #B2B2B2;
+.Prizes_content_content {
+  width: 25%;
+  text-align: center;
 }
 
-.end{
-    width: 100%;
-    height: 100%;
-    background-color:  #030A06;
-}
-.APD{
-    padding: 2% 14% 0% 14%;
-    gap:0.5vw;
-    text-align: center;
-    display: flex;
-    position: relative;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    color: #C5C5C5;
-  }
-.APD_content{
-    width: 40%;
-    text-align:center;
-    color: rgb(218, 213, 91);
-    font-family: 'Sansation', sans-serif;
-}
-.alcherLogoBottom{
-    position: relative;
-}
-.alcherLogoBottom img{
-    height: 13vw;
-    width: 12vw;
-}
-.alcherFooter{
-    font-size: 2vw;
-    position: relative;
-    top:-1vw;
-    font-weight:700;
-    letter-spacing: 0.1vw;
-}
-.pDFooter{
-    font-size: 1.33vw;
-    position: relative;
-    top: -2vw;
-    font-weight:400;
-    letter-spacing: 0.2vw;
+.Registration_Fees_content {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  gap: 6%;
+  color: #c5c5c5;
 }
 
-.contactFollow{
-    padding: 0% 14% 4% 14%;
-    gap:1vw;
-    text-align: center;
-}
-.Contact{
-    position: relative;
-    top: -4.5vw;
-    border-right: 2px solid #7E8499;
-}
-.Follow{
-    position: relative;
-    top: -2vw;
-    left: -8vw;
+.Registration_Fees_content_content {
+  width: 25%;
+  text-align: center;
 }
 
-img.top{
+.Adjudicators_content {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  gap: 4%;
+  color: #c5c5c5;
+}
+.Adjudicators_content_content {
+  width: 25%;
+  text-align: center;
+}
+.Adjudicator_image {
+  height: 7.5vw;
+  width: 7.5vw;
+  position: relative;
+  left: 4vw;
+  border-radius: 50%;
+  background-color: #b2b2b2;
+}
+
+.Adjudicator_name {
+  font-size: 1.2vw;
+  font-weight: 400;
+  font-family: "Sansation-Light", sans-serif;
+}
+
+.Team_content {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  color: #c5c5c5;
+}
+.Team_content_content {
+  width: 25%;
+  text-align: center;
+}
+.Team_image {
+  height: 7.5vw;
+  width: 7.5vw;
+  position: relative;
+  left: 5vw;
+  border-radius: 50%;
+  background-color: #b2b2b2;
+}
+
+.end {
+  width: 100%;
+  height: 100%;
+  background-color: #030a06;
+}
+.APD {
+  padding: 2% 14% 0% 14%;
+  gap: 0.5vw;
+  text-align: center;
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  color: #c5c5c5;
+}
+.APD_content {
+  width: 40%;
+  text-align: center;
+  color: rgb(218, 213, 91);
+  font-family: "Sansation", sans-serif;
+}
+.alcherLogoBottom {
+  position: relative;
+}
+.alcherLogoBottom img {
+  height: 13vw;
+  width: 12vw;
+}
+.alcherFooter {
+  font-size: 2vw;
+  position: relative;
+  top: -1vw;
+  font-weight: 700;
+  letter-spacing: 0.1vw;
+}
+.pDFooter {
+  font-size: 1.33vw;
+  position: relative;
+  top: -2vw;
+  font-weight: 400;
+  letter-spacing: 0.2vw;
+}
+
+.contactFollow {
+  padding: 0% 14% 4% 14%;
+  gap: 1vw;
+  text-align: center;
+}
+.Contact {
+  position: relative;
+  top: -4.5vw;
+  border-right: 2px solid #7e8499;
+}
+.Follow {
+  position: relative;
+  top: -2vw;
+  left: -8vw;
+}
+
+img.top {
   position: relative;
   height: 2vw;
   width: 20vw;
   z-index: 1;
 }
-img.bottom{
-    position: relative;
-    height: 2.5vw;
-    width: 21vw;
-    left: -0.5vw;
-    top: -2.6vw;
-    z-index: 0;
+img.bottom {
+  position: relative;
+  height: 2.5vw;
+  width: 21vw;
+  left: -0.5vw;
+  top: -2.6vw;
+  z-index: 0;
 }
 
-.contactFollowContent{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    gap: 20%;
-    align-items: flex-end;
+.contactFollowContent {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 20%;
+  align-items: flex-end;
 }
-.ContactFollow{
-    width: 25%;
-    text-align:center;
-    color: #C5C5C5;
-    font-size: 1.1vw;
-    font-family: 'Sansation-Light', sans-serif;
+.ContactFollow {
+  width: 25%;
+  text-align: center;
+  color: #c5c5c5;
+  font-size: 1.1vw;
+  font-family: "Sansation-Light", sans-serif;
 }
-footer{
-    text-align : center;
-    color:rgb(126, 132, 153, 0.65);
-    position: relative;
-    top: -5vw;
-    font-family: 'Sansation-Light', sans-serif;
-    background-color: #030A06;
-    font-size: 1.2vw;
-    padding-bottom: 4%;
+footer {
+  text-align: center;
+  color: rgb(126, 132, 153, 0.65);
+  position: relative;
+  top: -5vw;
+  font-family: "Sansation-Light", sans-serif;
+  background-color: #030a06;
+  font-size: 1.2vw;
+  padding-bottom: 3%;
 }
 
-@media (max-width: 768px) {
-    .navbar{
+@media (max-width: 780px) {
+  .navbar {
     gap: 10vw;
-    width:100%;
-    height:7vh;
+    width: 100%;
+    height: 6vh;
     font-weight: 700;
     font-size: 1vw;
-    }
+  }
 
-    .intro {
-        background-size: auto 100%;
-        /* background-position-y: 5vw; */
-        top: 5vw;
-    }
-    .PD{
-        position: relative;
-        top:0vh;
-      }
+  .intro {
+    background-size: auto 100%;
+    /* background-position-y: 5vw; */
+    /* top: 5vw; */
+  }
 
-    .PDintro{
-        position: relative;
-        top: -3vh;
-    }
+  .Alcheringa24 {
+    top: 3vh;
+  }
 
-    .Team_content_content{
-        position: relative;
-        top: -1vw;
-    }
-    .Team_content_content .heading{
-        position: relative;
-        top: -1vw;
-    }
-    .Team_content_content .description{
-        position: relative;
-        top: -1vw;
-    }
-    .Adjudicators_content_content{
-        position: relative;
-        top: -1vw;
-    }
-    .Adjudicators_content_content .Adjudicator_name{
-        position: relative;
-        top: -1vw;
-    }
+  .PD {
+    position: relative;
+    top: 2vh;
+  }
+
+  .PDintro {
+    position: relative;
+    top: 1vh;
+  }
+
+  .Team_content_content {
+    position: relative;
+    top: -1vw;
+  }
+  .Team_content_content .heading {
+    position: relative;
+    top: -1vw;
+  }
+  .Team_content_content .description {
+    position: relative;
+    top: -1vw;
+  }
+  .Adjudicators_content_content {
+    position: relative;
+    top: -1vw;
+  }
+  .Adjudicators_content_content .Adjudicator_name {
+    position: relative;
+    top: -1vw;
+  }
 }
